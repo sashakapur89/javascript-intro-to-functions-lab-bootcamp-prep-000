@@ -17,3 +17,6 @@ function sayHiToGrandma(string){
     return `None of the above.`;
   }
 }
+function say(greeting, firstName) {
+  return `${greeting}, ${firstName}!`
+}
