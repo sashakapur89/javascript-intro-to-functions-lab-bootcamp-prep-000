@@ -7,7 +7,7 @@ function logShout(string){console.log(`hello`.toUpperCase())}
 function logWhisper(string){console.log(`hello`.toLowerCase())}
 
 function sayHiToGrandma(string){
-    if (`string`.toLowerCase() === 'string'){
+    if (string.toLowerCase() === 'string'){
     return `I can't hear you!`;
   } else if (`string`.toUpperCase() === 'string'){
     return `YES INDEED!`;
@@ -15,15 +15,5 @@ function sayHiToGrandma(string){
     return `I love you, too.`;
   } else {
     return `None of the above.`;
-  }
-}
-
-function checkData() {
-  if (document.form1.threeChar.value.length == 3) {
-    return true;
-  } else {
-    alert('Enter exactly three characters. ' +
-    document.form1.threeChar.value + ' is not valid.');
-    return false;
   }
 }
